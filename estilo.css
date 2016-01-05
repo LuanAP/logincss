@@ -1,0 +1,80 @@
+@font-face {
+				font-family: 'font';
+				src: url('Firecat.ttf');
+			}
+
+			@font-face {
+				font-family: 'fontS';
+				src: url('_font/bubblegum-sans-regular.otf')
+			}
+
+			body {
+				background: #cecece;
+				background-attachment: fixed;
+			
+			}
+
+			form {
+				padding: 10px;
+				width: 230px;
+				height: 350px;
+				margin: 90px auto;
+				border: 1px solid #FFA500;
+				box-shadow: 0px 0px 10px #FFA500;
+				border-radius: 10%;
+				background: #fff;
+			}
+
+			legend {
+				border-bottom: 1px solid #FFA500;
+				font-family: 'fontS';
+				font-size: 23pt;
+			    font-weight: bolder;
+			    text-align: center;
+			}
+
+			form input#entrar {
+				color: #FFF;
+				background: #696969;
+				width: 200px;
+				height: 50px;
+				margin-top: 40px;
+				border-radius: 100%;
+				margin-left: 15px;
+			}
+			
+			input#Usi {
+				border: 1px solid #FFA500;
+				font-size: 12pt;
+			}
+
+			input#Pwi {
+				border: 1px solid #FFA500;
+				font-size: 12pt;
+			}
+			
+			p.graf {
+				font-family: 'fontS';
+				color: #696969;
+				text-shadow: 1px 1px 0px #000;
+				font-size: 20pt;
+				font-weight: bold;
+				margin-bottom: 0;
+			}
+
+			p#Graf {
+				margin-left: 70px;
+				margin-top: 30px;
+			}
+			
+			a {
+				font-family: 'FontS';
+				color: #FF0000;
+				text-shadow: 1px 1px 0px #000;
+				font-size: 14pt;
+				text-decoration: none;
+			}
+			
+			a:hover {
+				text-decoration: underline;
+			}

@@ -1,0 +1,42 @@
+﻿<?php
+// Inicia a sessão
+session_start();
+?>
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="anonymous000" />
+		<meta name="generator" content="AptanaStudio3" />
+		<title>Login</title> 
+		<link rel="stylesheet" href="estilo.css" />
+
+	</head>
+	<body>
+		<form action="index.php" method="post">
+
+			<legend>
+				Login
+			</legend>
+
+			<p class="graf">
+				<label for="Usi">Usuário:</label>
+			</p>
+			<input type="text" name="Usn"id="Usi" placeholder="Email ou nome de usuário.">
+
+			<p class="graf">
+				<label for="Pwi">Senha:</label>
+			</p>
+			<input type="password" name="Pwn"id="Pwi" placeholder="Sua senha.">
+
+			<input type="submit" value="entrar" id="entrar">
+				
+
+			<p id="Graf">
+				<a href="criar-usuarios">Criar usuário</a>
+			</p>
+
+		</form>
+
+	</body>
+</html>
